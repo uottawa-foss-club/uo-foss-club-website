@@ -283,6 +283,7 @@ a {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  margin: 16px 0;
 }
 
 .join-card .btn.primary {
