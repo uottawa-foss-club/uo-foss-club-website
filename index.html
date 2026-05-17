@@ -17,60 +17,61 @@
       <nav class="nav">
         <a class="brand" href="#top">
           <img src="img/logo.png" alt="uOttawa FOSS Club logo" />
-          <span>uOttawa FOSS Club</span>
+          <span data-i18n="nav.brand">uOttawa FOSS Club</span>
         </a>
         <div class="nav-links">
-          <a href="#pillars">Pillars</a>
-          <a href="#activities">Activities</a>
-          <a href="#tracks">Tracks</a>
-          <a href="#join">Join</a>
+          <a href="#pillars" data-i18n="nav.pillars">Pillars</a>
+          <a href="#activities" data-i18n="nav.activities">Activities</a>
+          <a href="#tracks" data-i18n="nav.tracks">Tracks</a>
+          <a href="#join" data-i18n="nav.join">Join</a>
+          <button class="lang-toggle" id="lang-toggle" type="button" data-i18n="nav.language">English</button>
         </div>
       </nav>
 
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Free and Open Source at uOttawa</p>
-          <h1>We turn students into architects of open-source systems.</h1>
-          <p class="lead">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Free and Open Source at uOttawa</p>
+          <h1 data-i18n="hero.title">We turn students into architects of open-source systems.</h1>
+          <p class="lead" data-i18n="hero.lead">
             The uOttawa FOSS Club is a student-led engineering collective dedicated to
             mastering FOSS, systems architecture, and security-first development. We
             bridge academic theory with industry-grade engineering by contributing to
             the global software ecosystem.
           </p>
           <div class="cta-row">
-            <a class="btn primary" href="https://discord.gg/VwqAuNtZkj">Join the Community</a>
-            <a class="btn ghost" href="#activities">See the Year Plan</a>
+            <a class="btn primary" href="https://discord.gg/VwqAuNtZkj" data-i18n="hero.cta.primary">Join the Community</a>
+            <a class="btn ghost" href="#activities" data-i18n="hero.cta.secondary">See the Year Plan</a>
           </div>
           <div class="hero-stats">
             <div>
-              <span>Weekly</span>
-              <strong>Co-Hacking</strong>
+              <span data-i18n="hero.stat.weekly.label">Weekly</span>
+              <strong data-i18n="hero.stat.weekly.value">Co-Hacking</strong>
             </div>
             <div>
-              <span>Annual</span>
-              <strong><a href="https://linuxfromscratch.org" target="_blank" rel="noopener noreferrer">Linux From Scratch</a></strong>
+              <span data-i18n="hero.stat.annual.label">Annual</span>
+              <strong data-i18n-html="hero.stat.annual.value">Linux From Scratch</strong>
             </div>
             <div>
-              <span>Security-First</span>
-              <strong>Mindset</strong>
+              <span data-i18n="hero.stat.security.label">Security-First</span>
+              <strong data-i18n="hero.stat.security.value">Mindset</strong>
             </div>
           </div>
         </div>
         <div class="hero-card">
-          <h2>Mission</h2>
-          <p>
+          <h2 data-i18n="mission.title">Mission</h2>
+          <p data-i18n="mission.body">
             We move students beyond being users of technology to becoming builders of
             it. From landing first PRs to analyzing real-world vulnerabilities, we
             learn by doing and ship work that lasts.
           </p>
           <div class="mission-tags">
-            <span>Contribution</span>
-            <span>Systems</span>
-            <span>Security</span>
+            <span data-i18n="mission.tag.contribution">Contribution</span>
+            <span data-i18n="mission.tag.systems">Systems</span>
+            <span data-i18n="mission.tag.security">Security</span>
           </div>
           <div class="card-callout">
-            <p>Open to all skill levels.</p>
-            <p>If you can spot a typo in a README, you are ready to contribute.</p>
+            <p data-i18n="mission.callout.line1">Open to all skill levels.</p>
+            <p data-i18n="mission.callout.line2">If you can spot a typo in a README, you are ready to contribute.</p>
           </div>
         </div>
       </div>
@@ -79,29 +80,29 @@
     <main>
       <section class="section pillars" id="pillars">
         <div class="section-header">
-          <p class="eyebrow">Core pillars</p>
-          <h2>The foundation of our culture.</h2>
+          <p class="eyebrow" data-i18n="pillars.eyebrow">Core pillars</p>
+          <h2 data-i18n="pillars.title">The foundation of our culture.</h2>
         </div>
         <div class="pillar-grid">
           <article>
-            <h3>Active Contribution</h3>
-            <p>
+            <h3 data-i18n="pillars.card1.title">Active Contribution</h3>
+            <p data-i18n="pillars.card1.body">
               We provide a structured environment for students to contribute to major
               projects like Next.js. We help members navigate
               Good First Issues and land their first merged PRs.
             </p>
           </article>
           <article>
-            <h3>Systems-Level Mastery</h3>
-            <p>
-              Our flagship annual event, <a href="https://linuxfromscratch.org" target="_blank" rel="noopener noreferrer">Linux From Scratch</a> Week, involves building
+            <h3 data-i18n="pillars.card2.title">Systems-Level Mastery</h3>
+            <p data-i18n-html="pillars.card2.body">
+              Our flagship annual event, Linux From Scratch Week, involves building
               an entire operating system from source. Students demystify the kernel,
               toolchains, and hardware-software interfaces.
             </p>
           </article>
           <article>
-            <h3>Security-First Engineering</h3>
-            <p>
+            <h3 data-i18n="pillars.card3.title">Security-First Engineering</h3>
+            <p data-i18n="pillars.card3.body">
               We analyze real-world vulnerabilities and bug bounty reports to
               understand how software is exploited. Members learn to build hardened,
               resilient software.
@@ -112,48 +113,48 @@
 
       <section class="section activities" id="activities">
         <div class="section-header">
-          <p class="eyebrow">Year plan</p>
-          <h2>Hands-on experiences all year long.</h2>
+          <p class="eyebrow" data-i18n="activities.eyebrow">Year plan</p>
+          <h2 data-i18n="activities.title">Hands-on experiences all year long.</h2>
         </div>
         <div class="activity-grid">
           <div class="activity">
-            <h3>First PR Workshops</h3>
-            <p>
+            <h3 data-i18n="activities.card1.title">First PR Workshops</h3>
+            <p data-i18n="activities.card1.body">
               Learn how to make your first PR, navigate maintainer feedback, and
               practice the etiquette of working in global FOSS communities.
             </p>
           </div>
           <div class="activity">
-            <h3>Secure Software Workshops</h3>
-            <p>
+            <h3 data-i18n="activities.card2.title">Secure Software Workshops</h3>
+            <p data-i18n="activities.card2.body">
               Hands-on sessions on building software that is hard to exploit, with
               practical lessons on sandboxing and secure defaults.
             </p>
           </div>
           <div class="activity">
-            <h3><a href="https://linuxfromscratch.org" target="_blank" rel="noopener noreferrer">Linux From Scratch</a></h3>
-            <p>
+            <h3 data-i18n-html="activities.card3.title">Linux From Scratch</h3>
+            <p data-i18n="activities.card3.body">
               An annual deep-dive week where we build a Linux system from source
               and learn how every layer of the stack fits together.
             </p>
           </div>
           <div class="activity">
-            <h3>Weekly Co-Hacking</h3>
-            <p>
+            <h3 data-i18n="activities.card4.title">Weekly Co-Hacking</h3>
+            <p data-i18n="activities.card4.body">
               A consistent shared space to collaborate, review code, and push
               contributions forward together.
             </p>
           </div>
           <div class="activity">
-            <h3>Security Review Circles</h3>
-            <p>
+            <h3 data-i18n="activities.card5.title">Security Review Circles</h3>
+            <p data-i18n="activities.card5.body">
               We review weekly CVEs, dig into post-mortems, and discuss ethical
               disclosure in our active Discord.
             </p>
           </div>
           <div class="activity">
-            <h3>Merged Gala</h3>
-            <p>
+            <h3 data-i18n="activities.card6.title">Merged Gala</h3>
+            <p data-i18n="activities.card6.body">
               End-of-semester celebration recognizing students whose open-source
               contributions have been merged.
             </p>
@@ -163,27 +164,27 @@
 
       <section class="section tracks" id="tracks">
         <div class="section-header">
-          <p class="eyebrow">Focus tracks</p>
-          <h2>Pick a depth area and go further.</h2>
+          <p class="eyebrow" data-i18n="tracks.eyebrow">Focus tracks</p>
+          <h2 data-i18n="tracks.title">Pick a depth area and go further.</h2>
         </div>
         <div class="tracks-grid">
           <article>
-            <h3>Web Architecture</h3>
-            <p>
+            <h3 data-i18n="tracks.card1.title">Web Architecture</h3>
+            <p data-i18n="tracks.card1.body">
               Learn how global products are designed, deployed, and scaled. Study
               modern frameworks and contribute to widely used web tooling.
             </p>
           </article>
           <article>
-            <h3>Low-Level Systems Engineering</h3>
-            <p>
+            <h3 data-i18n="tracks.card2.title">Low-Level Systems Engineering</h3>
+            <p data-i18n="tracks.card2.body">
               Dive into kernels, compilers, and hardware interfaces. Build a sharper
               understanding of how computers actually work.
             </p>
           </article>
           <article>
-            <h3>Security Auditing</h3>
-            <p>
+            <h3 data-i18n="tracks.card3.title">Security Auditing</h3>
+            <p data-i18n="tracks.card3.body">
               Explore real exploit chains, bug bounty reports, and supply chain
               attacks. Learn to engineer defenses from day one.
             </p>
@@ -195,16 +196,16 @@
         <div class="join-card">
           <div>
             <div>
-              <p class="eyebrow">No gatekeeping</p>
-              <h2>Build software that lasts and secure the open web.</h2>
-              <p>
+              <p class="eyebrow" data-i18n="join.eyebrow">No gatekeeping</p>
+              <h2 data-i18n="join.title">Build software that lasts and secure the open web.</h2>
+              <p data-i18n="join.body">
                 Whether you are a first-year student or a seasoned developer, you will
                 find a community ready to help you contribute.
               </p>
             </div>
             <div class="join-actions">
-              <a class="btn primary" href="https://discord.gg/VwqAuNtZkj">Join Our Discord</a>
-              <a class="btn ghost" href="#top">Back to Top</a>
+              <a class="btn primary" href="https://discord.gg/VwqAuNtZkj" data-i18n="join.cta.primary">Join Our Discord</a>
+              <a class="btn ghost" href="#top" data-i18n="join.cta.secondary">Back to Top</a>
             </div>
           </div>
           <div><iframe src="https://discord.com/widget?id=1500666956427034624&theme=dark" width="300" height="450" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
@@ -214,14 +215,14 @@
 
     <footer class="footer">
       <div>
-        <h3>uOttawa FOSS Club</h3>
-        <p>Student-led. Contribution-driven. Security-first.</p>
-        <p>Copyright © <script type="text/javascript">document.write(new Date().getFullYear())</script> uOttawa FOSS Club</p>
+        <h3 data-i18n="footer.title">uOttawa FOSS Club</h3>
+        <p data-i18n="footer.tagline">Student-led. Contribution-driven. Security-first.</p>
+        <p><span data-i18n="footer.copyright.prefix">Copyright © </span><script type="text/javascript">document.write(new Date().getFullYear())</script> <span data-i18n="footer.copyright.suffix">uOttawa FOSS Club</span></p>
       </div>
       <div class="footer-links">
-        <a href="#pillars">Core pillars</a>
-        <a href="#activities">Activities</a>
-        <a href="#tracks">Focus tracks</a>
+        <a href="#pillars" data-i18n="footer.link.pillars">Core pillars</a>
+        <a href="#activities" data-i18n="footer.link.activities">Activities</a>
+        <a href="#tracks" data-i18n="footer.link.tracks">Focus tracks</a>
       </div>
     </footer>
     <script src="scripts.js" defer></script>
